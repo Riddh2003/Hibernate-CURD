@@ -26,3 +26,4 @@ public class SessionController {
 		return "redirect:signup";
 	}
 }
+
