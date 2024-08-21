@@ -17,7 +17,7 @@
     <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
         <div class="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
             <form class="space-y-6" action="updateuser" method="post">
-                <input type="hidden" name="id" value="${user.userId}">
+                <input type="hidden" name="userId" value="${user.userId}">
                 <div>
                     <label for="username" class="block text-sm font-medium text-gray-700">
                         Username
@@ -41,7 +41,7 @@
                         Password
                     </label>
                     <div class="mt-1">
-                        <input id="userpassword" name="userpassword" type="password" value="${user.password}" required class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-blue-700 sm:text-sm">
+                        <input id="password" name="password" type="password" value="${user.password}" required class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-blue-700 sm:text-sm">
                     </div>
                 </div>
 
